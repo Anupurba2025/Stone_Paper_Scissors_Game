@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Stone Paper Scissor</h1> 
+  <div class="choices">
+    <div class="choice" id="stone">
+        <img src="./images/stone_final.png" alt="Stone icon">
+    </div>
+    <div class="choice" id="paper">
+        <img src="./images/paper.png" alt="Paper icon">
+    </div>
+    <div class="choice" id="sciccors">
+        <img src="./images/sciccors.png" alt="Scissor icon">
+    </div>
+  </div> 
+  <div class="score-board">
+    <h1>Score Board</h1>
+    <div class="score">
+      <img src="./images/user.jpg" alt="user image">
+        <p class="para" id="user-score">0</p>
+        <!-- <p>you</p> -->
+    </div>
+    <div class="score">
+      <img src="./images/computer.png" alt="computer image">
+        <p class="para" id="comp-score">0</p>
+        <!-- <p>comp</p> -->
+    </div>
+    <button class="StartBtn hide">Start Again</button>
+  </div>
+ <div class="msg-container">
+    <!-- <p id="msg">Welcome to the game</p> -->
+    <!-- <p id="msg-show">Play Your Move</p>   -->
+    
+  </div> 
+  <p id="newPara">Which will you choose: 
+    <br>the steadfast <span>stone</span>, 
+    the nimble <span>paper</span>, 
+    or the sharp-edged <span>scissors?</span></p>
+
+  <div class="winner-container hide" id="winnerContainer">
+    <!-- <p>User VS computer</p><br>  -->
+    <div  id="userChoiceDisplay"></div>
+    <div  id="vsDisplay"></div>
+    <div  id="compChoiceDisplay"></div>
+
+</div>
+</body>
+<script src="game.js"></script>
+</html>

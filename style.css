@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5vmin;
+    border: none;
+    border-radius: .5rem;
+    font-size: 6vmin;
+    /* margin-left: 3.5vmin;
+    margin-right: 2vmin; */
+    
+}
+.choice{
+    height: 30vmin;
+    width: 30vmin;
+    margin-top: -3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    /* opacity: 0.5; */
+    cursor: pointer ;
+    background-color: red;
+    border:none;
+    border-radius: 50%;
+}
+img{
+   height: 27vmin;
+   width: 27vmin;
+   object-fit: cover;
+    
+}
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+    margin-top: 2.5vw;
+    height: 30vmin;
+}
+/* .score-board{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    font-size: 2rem;
+} */
+.score-board{
+    height: 50vmin;
+    width: 40vmin;
+    margin-top: -2.9vmin;
+    margin-left: 2vmin;
+    padding: 2vw;
+    border: 0.2rem solid black;
+    background-color: blanchedalmond;
+}
+.score-board h1{
+   height: 5vmin;
+   width: 30vmin;
+   font-size: 5vmin;
+   justify-content: center;
+   align-items: center;
+   padding: 1vmin;
+   margin-left: 3.5vmin;
+}
+.score p{
+   font-size: 7vmin;
+}
+ .score-board img{
+    object-fit: cover;
+    border-radius: 50vmin;
+    margin-top: 2.5vmin; 
+    margin-bottom: 2vmin;
+    height: 15vmin;
+    width: 15vmin;
+ }
+ .score{
+    display: flex;
+ }
+.para{
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.8vmin;
+    margin-left: 10vmin;
+    gap: 5vmin;
+    font-size: 2.5rem;
+    color: red;
+
+ }
+ .msg-container{
+    margin-left: 30vw;
+    /* background-color: aqua; */
+    margin-top: -25vw;
+ }
+ #msg{
+    margin-top: 20px;
+    margin-left: 3vw;
+    width: 30vw;
+    font-size: 2rem;
+    color: blue;
+ }
+ #msg-show{
+    margin-top: 30px;
+    margin-left: 3vw;
+    padding: .5rem;
+    border: none;
+    border-radius:25%;
+    width: 13vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+ }
+
+
+ .winner-container{
+    /* display: flex; */
+    display: inline-flex;
+    margin-top: 10vmin;
+    margin-left: 70vmin;
+    gap: 1vmin;
+    justify-content: center;
+    align-items: center;
+ }
+ .hide{
+    display: none;
+ }
+ .paraShow{
+    color: red;
+    font-size: 5vmin;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+ }
+ .images{
+   height: 25vmin;
+   width: 25vmin;
+   
+   
+   
+ }
+ /* styling part for button */
+ .StartBtn{
+   padding: 1.5vmin;
+   border: none;
+   border-radius: 1rem;
+   background-color: black;
+   color: white;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10vmin;
+   margin-top: -6vmin; 
+   font-size: 3vmin;
+ }
+ #newPara{
+   margin-left: 20rem;
+   font-size: 1.5rem;
+ }
+ #newPara span{
+   color: red;
+   font-size: 2rem;
+ }
+
+ 
+
+ 
